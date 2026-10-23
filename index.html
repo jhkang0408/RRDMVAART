@@ -109,14 +109,14 @@
 
   <!-- More Works Dropdown -->
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View Follow-up Works">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View Related Publications">
       <i class="fas fa-flask"></i>
       Related Publications
       <i class="fas fa-chevron-down dropdown-arrow"></i>
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
       <div class="dropdown-header">
-        <h4>Follow-up Works</h4>
+        <h4>Gesture Retargeting</h4>
         <button class="close-btn" onclick="toggleMoreWorks()">
           <i class="fas fa-times"></i>
         </button>
@@ -125,16 +125,14 @@
         <a href="https://jhkang0408.github.io/RTUGVADTE/" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Real-time Translation of Upper-body Gestures to Virtual Avatars in Dissimilar Telepresence Environments</h5>
-            <p>Extends deictic motion retargeting to a wide range of upper-body gestures, including eye gaze, deictic and free-form gestures, trained on unpaired data.</p>
-            <span class="work-venue">IEEE TVCG 2025</span>
+            <span class="work-venue">IEEE TVCG, 2025</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
         <a href="https://github.com/jhkang0408/PTUGRTEVADE" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Part-wise Translation of Upper-body Gestures via Real-time Target Estimation for Virtual Avatars in Dissimilar Environments</h5>
-            <p>Estimates interaction targets in real time and translates upper-body gestures part by part, removing the need for predefined targets.</p>
-            <span class="work-venue">IEEE TVCG 2026</span>
+            <span class="work-venue">IEEE TVCG, Under Review</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -161,18 +159,28 @@
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Graduate School of Culture Technology, KAIST<br>IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2023</span>
+              <span class="author-block">KAIST<br>IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2023</span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="https://doi.org/10.1109/ISMAR59233.2023.00104" target="_blank"
+                  <a href="static/pdfs/Real-time-Retargeting-of-Deictic-Motion-to-Virtual-Avatars-for-Augmented-Reality-Telepresence.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
                     <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://ieeexplore.ieee.org/document/10316476" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-ieee"></i>
+                    </span>
+                    <span>IEEE Xplore</span>
                   </a>
                 </span>
 
@@ -371,7 +379,7 @@
 
           <div class="sota-counter"></div>
 
-          <h2 class="figure-caption" style="text-align: center;">
+          <h2 class="figure-caption">
             Deictic motions of test subjects with different heights (left) and the avatar motions retargeted in real time by our framework (right),
             shown in top (upper) and front (lower) views. The targets are placed at different locations for the user and the avatar.
           </h2>
@@ -471,7 +479,7 @@
 
           <div class="sota-counter"></div>
 
-          <h2 class="figure-caption" style="text-align: center;">
+          <h2 class="figure-caption">
             Although the network is trained on motions of a single 170 cm subject, it retargets the touching motions of users with different heights to their avatars.
           </h2>
 
@@ -493,7 +501,7 @@
       <video poster="" autoplay controls muted loop playsinline height="100%" preload="metadata">
         <source src="static/videos/analysis/robustness_target_positions.mp4" type="video/mp4">
       </video>
-      <h2 class="figure-caption" style="text-align: center;">
+      <h2 class="figure-caption">
         The avatar stably points at its own target while the target position is randomly adjusted.
       </h2>
     </div>
@@ -566,15 +574,28 @@
       <div class="column is-full">
         <h2 class="title is-3">AR Telepresence Scenarios</h2>
         <div class="content has-text-centered">
+          <p class="sota-slide-label">Education</p>
           <figure>
-            <img src="static/images/scenarios.jpg"
-              alt="Education and commerce AR telepresence scenarios"
-              style="width: 100%; max-width: 640px; height: auto;">
+            <img src="static/images/education.jpg"
+              alt="Education scenario in AR telepresence"
+              style="width: 100%; height: auto;">
             <figcaption class="figure-caption">
-              <b>Education.</b> User X teaches user Y about the planets Earth, Venus, and Jupiter, each placed at a preferred location in each user's space.
-              As the user sequentially points at the planets, the avatar points at the corresponding planets in the same order.<br>
-              <b>Commerce.</b> User X seeks user Y's opinion on a piece of clothing; user Y has the actual item and user X has its virtual 3D replica.
-              When the user touches a specific part of the cloth (the zipper), the avatar touches the same part, so that the user's focus is accurately relayed.
+              User X teaches user Y about three planets in the solar system: Earth, Venus, and Jupiter.
+              Each user virtually augments the planets at their preferred locations within their own space.
+              As user X sequentially points at the planets in space A (left), avatar X&prime; points at the corresponding planets in the same order in space B (right).
+              Top: egocentric views. Bottom: room perspective views.
+            </figcaption>
+          </figure>
+
+          <p class="sota-slide-label" style="margin-top: 2.5rem;">Commerce</p>
+          <figure>
+            <img src="static/images/commerce.jpg"
+              alt="Commerce scenario in AR telepresence"
+              style="width: 100%; height: auto;">
+            <figcaption class="figure-caption">
+              User X seeks user Y's opinion on a piece of clothing; user Y has the actual clothing item in space B (right), while user X has its virtual 3D replica in space A (left).
+              When user Y touches a specific part of the cloth (the zipper), avatar Y&prime; touches the exact same part of the replica, so that the user's focus is accurately relayed.
+              Top: egocentric views. Bottom: room perspective views.
             </figcaption>
           </figure>
         </div>

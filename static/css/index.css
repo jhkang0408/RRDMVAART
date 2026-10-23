@@ -1617,7 +1617,7 @@ a:focus {
 .figure-caption {
   max-width: 900px;
   margin: 0.75rem auto 0;
-  text-align: left;
+  text-align: justify;
   font-style: normal;
   font-size: 1.1rem;
   line-height: 1.4;
@@ -1638,4 +1638,9 @@ a:focus {
 
 .author-block .no-link {
   color: inherit;
+}
+
+.content figure figcaption.figure-caption {
+  font-style: normal;
+  text-align: justify;
 }
