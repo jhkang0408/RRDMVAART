@@ -1605,7 +1605,8 @@ a:focus {
 
 /* RRDMVAART additions */
 .abstract-inline-image {
-  margin: 1.5rem 0;
+  margin: 0 auto 1.5rem;
+  max-width: 75%;
 }
 
 .abstract-inline-image img {
@@ -1625,6 +1626,7 @@ a:focus {
 
 .sota-slide-label {
   text-align: center;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -1643,4 +1645,22 @@ a:focus {
 .content figure figcaption.figure-caption {
   font-style: normal;
   text-align: justify;
+}
+
+.publication-authors.author-list {
+  margin-bottom: 0.5rem;
+}
+
+.content.has-text-justified.abstract-text {
+  line-height: 1.6;
+}
+
+.content.has-text-justified.abstract-text p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .abstract-inline-image {
+    max-width: 100%;
+  }
 }

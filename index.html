@@ -147,7 +147,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">Real-time Retargeting of Deictic Motion to Virtual Avatars for Augmented Reality Telepresence</h1>
-            <div class="is-size-5 publication-authors">
+            <div class="is-size-5 publication-authors author-list">
               <span class="author-block">
                 <a href="https://github.com/jhkang0408" target="_blank">Jiho Kang</a>,</span>
               <span class="author-block">Dongseok Yang,</span>
@@ -234,18 +234,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="abstract-inline-image">
+          <img src="static/images/teaser.jpg" alt="AR telepresence between two dissimilar spaces A and B">
+        </div>
+
+        <div class="content has-text-justified abstract-text">
           <p>
             Avatar-mediated augmented reality telepresence aims to enable distant users to collaborate remotely through avatars.
             When two spaces involved in telepresence are dissimilar, with different object sizes and arrangements, the avatar movement must be adjusted to convey the user's intention rather than directly following their motion, which poses a significant challenge.
             In this paper, we propose a novel neural network-based framework for real-time retargeting of users' deictic motions (pointing at and touching objects) to virtual avatars in dissimilar environments.
-          </p>
-
-          <div class="abstract-inline-image">
-            <img src="static/images/teaser.jpg" alt="AR telepresence between two dissimilar spaces A and B">
-          </div>
-
-          <p>
             Our framework translates the user's deictic motion, acquired from a sparse set of tracking signals, to the virtual avatar's deictic motion for a corresponding remote object in real-time.
             One of the main features of our framework is that a single trained network can generate natural deictic motions for various sizes of users.
             To this end, our network includes two sub-networks: AngleNet and MotionNet.
