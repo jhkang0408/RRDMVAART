@@ -1664,3 +1664,21 @@ a:focus {
     max-width: 100%;
   }
 }
+
+.dropdown-subheader {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.more-works-dropdown {
+  max-height: 85vh;
+}
+
+.more-works-dropdown .works-list {
+  padding: 0.5rem 1rem;
+}
+
+.more-works-dropdown .work-item {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.25rem;
+}
