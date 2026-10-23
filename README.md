@@ -4,7 +4,7 @@
 > Jiho Kang, Dongseok Yang, Taehei Kim, Yewon Lee, and Sung-Hee Lee<br>
 > IEEE ISMAR, 2023
 
-## [Paper](https://doi.org/10.1109/ISMAR59233.2023.00104)
+## [Project Page](https://jhkang0408.github.io/RRDMVAART/)
 
 ## This repository has moved!
 
