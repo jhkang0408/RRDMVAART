@@ -12,3 +12,19 @@
 > **Real-time Translation of Upper-body Gestures to Virtual Avatars in Dissimilar Telepresence Environments** (IEEE TVCG, 2025) and<br>
 > **Part-wise Translation of Upper-body Gestures via Real-time Target Estimation for Virtual Avatars in Dissimilar Environments** (IEEE TVCG, 2026).<br>
 > Please visit the latest repository: **https://github.com/jhkang0408/PTUGRTEVADE**
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{kang2023real,
+  title={Real-time Retargeting of Deictic Motion to Virtual Avatars for Augmented Reality Telepresence},
+  author={Kang, Jiho and Yang, Dongseok and Kim, Taehei and Lee, Yewon and Lee, Sung-Hee},
+  booktitle={2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+  pages={885--893},
+  year={2023},
+  organization={IEEE},
+  doi={10.1109/ISMAR59233.2023.00104}
+}
+```
