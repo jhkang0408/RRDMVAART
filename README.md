@@ -15,8 +15,6 @@
 
 ## Citation
 
-If you find this work useful, please cite our paper:
-
 ```bibtex
 @inproceedings{kang2023real,
   title={Real-time Retargeting of Deictic Motion to Virtual Avatars for Augmented Reality Telepresence},
